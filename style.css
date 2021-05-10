@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 35px;
+  color: #1d3557;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #264653;
+}
+
+h2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	color: #457b9d;
+}
+
+.icon {
+	color: #1d3557;
+  font-size: 40px;
+}
+
+a:hover {
+	background-color: grey;
+}
+
+.learn-more{
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	background-color: #fca311;
+	text-decoration: none;
+}
+
+.learn-more:hover{
+	background-color: black;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card {
+	background: white;
+  padding: 30px;
+  border: 0.5px solid lightgrey;
+  text-align: center;
+  margin-bottom: 12px;
+  border-radius: 1%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 25px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.learn-more {
+	padding: 10px;
+	border-radius: 5%;
+}
+
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+	text-align: center;
+	padding-left: 0px;
+}
+
+ul {
+	margin-top: 20px;
+}
+
+.about-me {
+	margin-bottom: 30px;
+}
+
+body {
+	background-color: lightblue;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
